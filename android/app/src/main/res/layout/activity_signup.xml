@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+<!--    <TextView-->
+<!--        android:id="@+id/myTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="注册账号"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="35sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="370dp"-->
+<!--        android:layout_height="wrap_content">-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewIcon"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/editTextNickname"-->
+<!--            android:layout_marginTop="-56dp"-->
+<!--            android:src="@drawable/nicheng" />-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextNickname"-->
+<!--            android:layout_width="363dp"-->
+<!--            android:layout_height="61dp"-->
+<!--            android:hint="          昵称" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--    &lt;!&ndash; 姓名 &ndash;&gt;-->
+<!--    <RelativeLayout-->
+<!--        android:layout_width="372dp"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        &lt;!&ndash; 昵称 &ndash;&gt;-->
+
+<!--        &lt;!&ndash; 图片 &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewIcon5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/editTextname"-->
+<!--            android:layout_marginTop="-56dp"-->
+<!--            android:src="@drawable/xm" />-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextname"-->
+<!--            android:layout_width="363dp"-->
+<!--            android:layout_height="61dp"-->
+<!--            android:hint="          姓名" />-->
+
+
+<!--    </RelativeLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="376dp"-->
+<!--        android:layout_height="66dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="16dp">-->
+
+<!--        &lt;!&ndash; 图片 &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewIcon3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:adjustViewBounds="true"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:src="@drawable/xb" />-->
+
+<!--        &lt;!&ndash; 垂直布局包含昵称和性别 &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="16dp"-->
+<!--            android:orientation="vertical">-->
+
+
+<!--            &lt;!&ndash; 性别 &ndash;&gt;-->
+<!--            <RadioGroup-->
+<!--                android:id="@+id/radioGroupGender"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/radioMale"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="男" />-->
+
+<!--                <RadioButton-->
+<!--                    android:id="@+id/radioFemale"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="女" />-->
+
+<!--            </RadioGroup>-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="372dp"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        &lt;!&ndash; 昵称 &ndash;&gt;-->
+
+<!--        &lt;!&ndash; 图片 &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewIcon4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/editTextshoujihao"-->
+<!--            android:layout_marginTop="-56dp"-->
+<!--            android:src="@drawable/sjh" />-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextshoujihao"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="57dp"-->
+<!--            android:hint="          手机号" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="375dp"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        &lt;!&ndash; 昵称 &ndash;&gt;-->
+
+<!--        &lt;!&ndash; 图片 &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewIcon2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/editTextzhanghao"-->
+<!--            android:layout_marginTop="-56dp"-->
+<!--            android:src="@drawable/zhanghao" />-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextzhanghao"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="57dp"-->
+<!--            android:hint="          账号" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="376dp"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        &lt;!&ndash; 昵称 &ndash;&gt;-->
+
+<!--        &lt;!&ndash; 图片 &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewIcon6"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/editTextmima"-->
+<!--            android:layout_marginTop="-56dp"-->
+<!--            android:src="@drawable/mima" />-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextmima"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="57dp"-->
+<!--            android:hint="          密码" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="375dp"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        &lt;!&ndash; 昵称 &ndash;&gt;-->
+
+<!--        &lt;!&ndash; 图片 &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/imageViewIcon7"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/editTextqueren"-->
+<!--            android:layout_marginTop="-56dp"-->
+<!--            android:src="@drawable/qrmima" />-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTextqueren"-->
+<!--            android:layout_width="346dp"-->
+<!--            android:layout_height="57dp"-->
+<!--            android:hint="          确认密码" />-->
+
+
+<!--    </RelativeLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        &lt;!&ndash; 第一个按钮 &ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/myButton"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="取消"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textColor="@color/green"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center"/>-->
+
+<!--        &lt;!&ndash; 第二个按钮，与第一个按钮相似 &ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/anotherButton"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="确定"-->
+<!--            android:textSize="16sp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:backgroundTint="@color/green"-->
+<!--            android:padding="10dp"-->
+<!--            android:layout_gravity="center"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="45dp" /> &lt;!&ndash; 调整这里的高度 &ndash;&gt;-->
+
+
+
+</LinearLayout>

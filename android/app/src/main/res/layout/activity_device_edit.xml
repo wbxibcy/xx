@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:ignore="MissingConstraints">
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="16dp"-->
+<!--            tools:ignore="MissingConstraints">-->
+
+<!--            &lt;!&ndash; 图标 &ndash;&gt;-->
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/device"-->
+<!--                android:layout_gravity="top"/>-->
+
+<!--            &lt;!&ndash; 文本 &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/device_name"-->
+<!--                android:textSize="16sp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="16dp"/>-->
+
+<!--            &lt;!&ndash; 可编辑文本 &ndash;&gt;-->
+<!--            <EditText-->
+<!--                android:id="@+id/devicename"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:hint="信息"/>-->
+<!--        </LinearLayout>-->
+
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="16dp"-->
+<!--            tools:ignore="MissingConstraints">-->
+
+<!--            &lt;!&ndash; 图标 &ndash;&gt;-->
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:src="@drawable/person"-->
+<!--                android:layout_gravity="top"/>-->
+
+<!--            &lt;!&ndash; 文本 &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/device_user"-->
+<!--                android:textSize="16sp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="16dp"/>-->
+
+<!--            &lt;!&ndash; 可编辑文本 &ndash;&gt;-->
+<!--            <EditText-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:hint="信息"/>-->
+<!--        </LinearLayout>-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/time"
+                android:layout_gravity="top"/>
+
+            <!-- 文本 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_time"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"/>
+
+            <!-- 可编辑文本 -->
+            <EditText
+                android:id="@+id/createdtime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:hint="信息"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints">
+
+            <!-- 图标 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/energy"
+                android:layout_gravity="top"/>
+
+            <!-- 文本 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/energy"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"/>
+
+            <!-- 可编辑文本 -->
+            <EditText
+                android:id="@+id/energy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                android:hint="信息"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- 第一个按钮 -->
+            <Button
+                android:id="@+id/myButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textSize="16sp"
+                android:textColor="@color/green"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+            <!-- 第二个按钮，与第一个按钮相似 -->
+            <Button
+                android:id="@+id/anotherButton"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/green"
+                android:padding="10dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<!--    &lt;!&ndash; 底部导航栏 &ndash;&gt;-->
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottom_navigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:background="@color/white"-->
+<!--        app:menu="@menu/bottom_navigation_menu" />-->
+
+</RelativeLayout>
+
+

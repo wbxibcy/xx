@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="16dp">
+
+
+    <!-- 使用空的 View 占据一部分垂直空间 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp" /> <!-- 调整这里的高度 -->
+
+
+    <TextView
+        android:id="@+id/myTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="费 电 宝"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_gravity="center_horizontal"/> <!-- 使用 layout_gravity 设置垂直居中 -->
+
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Your Battery"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp" /> <!-- 调整这里的高度 -->
+    <!-- 账号输入框 -->
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:hint="输入用户名"
+        android:background="@color/white"
+        android:inputType="text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp" /> <!-- 调整这里的高度 -->
+    <!-- 密码输入框和按钮 -->
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="输入密码"
+            android:padding="16dp"
+            android:inputType="textPassword" />
+
+
+
+        <!-- 按钮放在同一行 -->
+        <Button
+            android:id="@+id/buttonForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:text="忘记密码" />
+
+        <!-- 登录按钮 -->
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 第一个按钮 -->
+        <Button
+            android:id="@+id/myButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textSize="16sp"
+            android:textColor="@color/green"
+            android:backgroundTint="@color/white"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+
+        <!-- 第二个按钮，与第一个按钮相似 -->
+        <Button
+            android:id="@+id/anotherButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="90dp" /> &lt;!&ndash; 调整这里的高度 &ndash;&gt;-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="269dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Space-->
+<!--            android:layout_width="85dp"-->
+<!--            android:layout_height="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/editTextzhuce"-->
+<!--            android:layout_width="207dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:hint="没有账号？"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:padding="16dp" />-->
+
+
+<!--        &lt;!&ndash; 按钮放在同一行 &ndash;&gt;-->
+<!--        <Button-->
+<!--            android:id="@+id/buttonzhuce"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="53dp"-->
+<!--            android:text="注册"-->
+<!--            android:textColor="@color/black" />-->
+
+        <!-- 登录按钮 -->
+
+    </LinearLayout>
+
